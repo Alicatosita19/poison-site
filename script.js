@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     console.log("DOM Loaded");
 
-    if (window.location.pathname.includes('Website_2.html')) {
+    if (window.location.pathname.includes('index.html')) {
         console.log("On Website_2.html");
 
         document.getElementById('submit').addEventListener('click', checkPassword);
