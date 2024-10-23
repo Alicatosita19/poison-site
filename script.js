@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var p_word = document.getElementById('fname').value;
 
             if(p_word === '1') {
+                console.log("HEY ALI WAZUP")
                 location.href='poisons/Arsenic.html';
             }
             else if(p_word === '2') {
